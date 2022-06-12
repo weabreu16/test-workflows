@@ -16,7 +16,7 @@ jobs:
         os: [ ubuntu-latest, windows-latest ]
         node-version: [ 14.x, 16.x ]
 
-    run-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v3
